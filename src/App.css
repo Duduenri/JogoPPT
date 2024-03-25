@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Workbench&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.figura-pequena {
+  width: 100px;
+  height: 75px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.figura-pequena:hover {
+  transform: scale(1.1);
+}
+
+.aposta {
+  margin-top: 20px;
+}
+
+.figura-grande {
+  width: 140px;
+  height: 105px;
+}
+
+.texto-grande {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.mensagem {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  color: white;
+  background-color: #4169e1;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+.cor-aposta {
+  color: #ff4500;
+  font-size: 28px;
+}
+
+.cor-computador {
+  color: #4169e1;
+}
+
+.placar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font-family: "Workbench", sans-serif;
+}
+
+.placar-item {
+  text-align: center;
+}
+
+.placar-item p {
+  font-size: 36px;
+  margin: 10px;
+}
